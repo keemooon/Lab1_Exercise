@@ -20,7 +20,7 @@ int main()
 		cout << "3: Enter Occupation\n";
 		cin >> choice;
 
-		/*if (choice == -1)
+#		/*if (choice == -1)
 			break;*/
 
 		switch (choice)
@@ -28,18 +28,18 @@ int main()
 		case 1:
 			cout << "What is your Name: ";
 			cin >> name;
-			break;
+	#		break;
 		case 2:
 			cout << "What is your Age? ";
 			cin >> age;
-			break;
+	#		break;
 		case 3:
 			cout << "What is your Occupation? ";
 			cin >> occup;
-			break;
+	#		break;
 		default:
 			// Assume Invalid Menu Choice
-			cout << "Sorry that choice is not valid!";
+	#		cout << "Sorry that choice is not valid!";
 			break;
 		}
 	}
